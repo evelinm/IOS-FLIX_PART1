@@ -19,7 +19,7 @@ Time spent: 4 hours
 ### App Walkthough GIF
 
 
-<img src="https://giphy.com/gifs/xWBq4gtz0iQWqvJYtj/html5"><br>
+<img src="https://media.giphy.com/media/xWBq4gtz0iQWqvJYtj/giphy.gif"><br>
 
 ### Notes
 had so many bugs, A lot of the stuff was confusing, but i ended up figure out my mistakes.
