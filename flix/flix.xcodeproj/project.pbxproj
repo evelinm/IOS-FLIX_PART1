@@ -18,6 +18,9 @@
 		DA0694A4220651B500047B73 /* flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0694A3220651B500047B73 /* flixUITests.swift */; };
 		DA0694B422065DF400047B73 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0694B322065DF400047B73 /* MovieViewController.swift */; };
 		DA0694B62207826800047B73 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0694B52207826800047B73 /* MovieCell.swift */; };
+		DA0694B82208F5A700047B73 /* MoviesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0694B72208F5A700047B73 /* MoviesDetailViewController.swift */; };
+		DAB774C322136728009D1A67 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB774C222136728009D1A67 /* MovieGridViewController.swift */; };
+		DAB774C522136AF0009D1A67 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB774C422136AF0009D1A67 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		DA0694A5220651B500047B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0694B322065DF400047B73 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		DA0694B52207826800047B73 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		DA0694B72208F5A700047B73 /* MoviesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailViewController.swift; sourceTree = "<group>"; };
+		DAB774C222136728009D1A67 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		DAB774C422136AF0009D1A67 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		E4F281FAFD3013E9797B3353 /* Pods-flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flix/Pods-flix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +139,9 @@
 				DA06948F220651B500047B73 /* Info.plist */,
 				DA0694B322065DF400047B73 /* MovieViewController.swift */,
 				DA0694B52207826800047B73 /* MovieCell.swift */,
+				DA0694B72208F5A700047B73 /* MoviesDetailViewController.swift */,
+				DAB774C222136728009D1A67 /* MovieGridViewController.swift */,
+				DAB774C422136AF0009D1A67 /* MovieGridCell.swift */,
 			);
 			path = flix;
 			sourceTree = "<group>";
@@ -396,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB774C322136728009D1A67 /* MovieGridViewController.swift in Sources */,
+				DA0694B82208F5A700047B73 /* MoviesDetailViewController.swift in Sources */,
 				DA069484220651B200047B73 /* AppDelegate.swift in Sources */,
 				DA0694B422065DF400047B73 /* MovieViewController.swift in Sources */,
+				DAB774C522136AF0009D1A67 /* MovieGridCell.swift in Sources */,
 				DA0694B62207826800047B73 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,7 +587,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GR7A27J66;
 				INFOPLIST_FILE = flix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,7 +607,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GR7A27J66;
 				INFOPLIST_FILE = flix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
